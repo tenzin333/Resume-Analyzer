@@ -1,0 +1,83 @@
+🚀 Phased Roadmap for AI Resume & Job Optimizer
+🟢 Phase 1: MVP — Basic Resume + Job Description Analysis
+Goal:
+Build a functional prototype where users can upload their resume, paste a job description, and get a simple match report.
+
+Features:
+
+Upload resume (PDF or plain text)
+
+Paste job description text
+
+Call OpenAI API to:
+
+Generate a match score (0–100)
+
+Extract missing keywords
+
+Suggest a rewritten summary section
+
+Display results clearly (score, keywords, summary)
+
+Simple UI with React/Next.js + TailwindCSS
+
+🟡 Phase 2: Advanced AI Features & User Experience
+Goal:
+Add smart AI-powered tailoring and export capabilities.
+
+Features:
+
+Generate AI-powered tailored cover letters
+
+AI-assisted resume rewriting (summary, skills, experience sections)
+
+Allow users to preview and edit AI suggestions inline
+
+Export optimized resume and cover letter as PDF or text file
+
+Improve prompt engineering for more accurate results
+
+🟠 Phase 3: User Authentication & Data Persistence
+Goal:
+Enable users to save their resumes and analysis history securely.
+
+Features:
+
+User sign-up/login (using Supabase or Firebase)
+
+Store resumes, job descriptions, and analysis reports
+
+Display user history of past analyses
+
+Compare different resume versions side-by-side
+
+Option to save favorite tailored resumes/cover letters
+
+🔴 Phase 4: ATS Simulation & SaaS Features
+Goal:
+Simulate Applicant Tracking System (ATS) behavior and launch as a freemium SaaS product.
+
+Features:
+
+ATS score simulation based on keyword density and formatting
+
+Real-time feedback on ATS compatibility
+
+Dashboard with job market trends and keyword analytics
+
+Monetization via Stripe (premium features: unlimited rewrites, bulk uploads)
+
+Email notifications for job match alerts and resume suggestions
+
+Responsive UI with polished design and onboarding flow
+
+💡 Bonus / Stretch Ideas
+Browser extension to tailor resumes directly from job listings
+
+Public leaderboard showing top skills for trending roles
+
+AI-powered interview question generator based on job description
+
+Integrate vector search for semantic resume-job matching (using Pinecone)
+
+If you want, I can help you break down each phase into weekly sprints or daily tasks — just say the word!
